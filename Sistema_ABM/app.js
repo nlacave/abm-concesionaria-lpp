@@ -3,7 +3,7 @@ const session = require('express-session');
 const mysql = require('mysql2');
 const path = require('path');
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 // Importar los archivos de rutas (sin .default)
 const getRoutes = require('./routes/getRoutes');
