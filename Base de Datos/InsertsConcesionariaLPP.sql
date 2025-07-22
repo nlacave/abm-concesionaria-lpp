@@ -1,7 +1,7 @@
 /*INSERTS CONCESIONARIA LPP*/
 
 insert into persona values
-(1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL), /*Esta persona simboliza a nadie. Se usa para el circuito 8 cuando el automóvil usado no se vende, para poder no dejar nulo el codCL*/
+('',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL), /*Esta persona simboliza a nadie. Se usa para el circuito 8 cuando el automóvil usado no se vende, para poder no dejar nulo el codCL*/
 ('','DNI','22233152','Ricardo','Garbossa','J.B. Justo 2800','4566-8222','RicardoGarbossa@gamil.com',0),
 ('','PASAPORTE','AJJ222222','Tomas','Petraccaro','A. Alvarez Jonte 3600','3500-2213','TomasPetraccaro@gmail.com',0),
 ('','DNI','43000991','Nicolás','Quesada','Segurola 301','4443-4441','NicoQuesada@gmail.com',0),
